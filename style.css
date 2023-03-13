@@ -25,6 +25,7 @@ body {
     width: 100%;
     background-color: var(--main-color);
     font-family: 'Lobster', cursive;
+    
 }
 
 header {
@@ -48,12 +49,12 @@ main {
 main .container .fieldsCard {
     width: 20%;
     padding: 20px 35px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000bd;
     border-radius: 6px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    background: #ffffff10;
+    background: #72727210;
 }
 
 .categoryContainer {
@@ -419,7 +420,7 @@ main .container .fieldsCard input {
 .categoryFilterSelect{
     padding: 7px;
     width: 24%;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.338);
     border-radius: 6px;
 }
 

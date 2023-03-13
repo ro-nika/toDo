@@ -23,7 +23,7 @@
 body {
     margin: 0;
     width: 100%;
-    background-color: var(--main-color) important!; 
+    background-color: var(--main-color) !important; 
     background:url('/img/outrun-neon-dark-background-purple-3840x2160-4523\ \(1\).jpg') cover/center;
     font-family: 'Lobster', cursive;
     

@@ -73,7 +73,7 @@ function cardTemplate(todo) {
       <h2>${title}</h2>
 
       ${findCategory ? `<div class="categoryChange"><p>Категория: <strong>${findCategory.title}</strong></p> 
-          <button onclick="openCategoryCrudModal(${category})"><img src = "./img/2.png"></button>
+          <button onclick="openCategoryCrudModal(${category})"><img src = "./img/8.png"></button>
         </div>` : ''
     }
 
@@ -94,7 +94,7 @@ function cardTemplate(todo) {
           <div>
             <button onclick="completeTodo(${id})"><img src="./img/6.png"></button>
             <button onclick="deleteTodo(${id})"><img src="./img/4.png"></button>
-            <button onclick="editTodo(${id})"><img src="./img/5.png"></button>
+            <button onclick="editTodo(${id})"><img src="./img/8.png"></button>
           </div>
       </div>
     </div>

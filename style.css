@@ -143,14 +143,14 @@ main .container .fieldsCard input {
 
 .todoCard {
     width: 22%;
-    border: 1px solid #ccc;
+    border: 1px solid #000000b4;
     padding: 20px;
     border-radius: 6px;
     text-align: center;
     margin: 0 20px;
     margin-bottom: 20px;
     color: var(--font-color);
-    background: #ffffff23;
+    background: #72727224;
     height: 300px;
     position: relative;
 }

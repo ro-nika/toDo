@@ -154,7 +154,6 @@ function editTodo(id) {
     if (todo.id === id) {
       todo.title = prompt('Title', todo.title) || todo.title
       todo.description = prompt('Description', todo.description) || todo.description
-      todo.category = editCtg() || todo.category(id)
       todo.editedAt = currentDate()
     }
 

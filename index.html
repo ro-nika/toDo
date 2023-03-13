@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T0 DO</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#">Todo</a>
+
+    <select class="themesSelector">
+
+    </select>
+  </header>
+  <main>
+    <div class="container">
+
+      <div class="fieldsCard">
+
+        <div class="input1">
+          <input class="titleInput" placeholder="Введите заголовок" />
+        </div>
+
+        <div class="categoryContainer">
+          <select class="categorySelect">
+            <option value="">Выберите категорию</option>
+          </select>
+
+          <button class="addCategoryBtn">Создать</button>
+
+        </div>
+
+        <div class="input2"> <textarea class="descriptionInput" placeholder="Введите описание" rows="5"></textarea>
+        </div>
+
+        <div class="btn">
+          <button class="addBtn">Создать TODO</button>
+
+        </div>
+      </div>
+
+      <div class="categoryFilterContainer">
+        <select class="categoryFilterSelect">
+          <option value="">Выберите фильтрацию</option>
+        </select>
+      </div>
+
+      <div class="todos">
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal window for creating category -->
+  <div class="modal" id="modal">
+    <div class="modal-container">
+      <div class="close-btn-container">
+        <img
+          src="https://media.discordapp.net/attachments/1074720360672542791/1082299293907566653/x-mark.png?width=640&height=640"
+          alt="Close btn" class="close-btn">
+      </div>
+      <h1>Создание категории</h1>
+
+      <div class="createCategoryForm">
+        <div>
+          <input class="createCategoryInput" placeholder="Название категории">
+        </div>
+
+        <div>
+          <button class="createCategoryBtn">Создать</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Modal window for redact category -->
+    <div class="modalCatergoryCrud" id="modalCatergoryCrud">
+      <div class="modalCatergoryCrud-container">
+        <div class="close-modalCRUDCategory-container">
+          <img
+            src="https://media.discordapp.net/attachments/1074720360672542791/1082299293907566653/x-mark.png?width=640&height=640"
+            alt="Close btn" class="close_categoryCrud-btn">
+        </div>
+        <h1>Редактирование категории</h1>
+
+        <div class="categoryCRUDContent">
+          <div>
+            <input class="editCategoryInput" placeholder="Название категории">
+          </div>
+
+          <div class="button_ctg">
+            <button class="editCategoryBtn">Редактировать</button>
+            <button class="deleteCategoryBtn">Удалить</button>
+          </div>
+        </div> 
+      </div>
+
+    </div>
+  </div>
+
+
+  </div>
+  <script src="./script.js"></script>
+  <script src="./themes.js"></script>
+  <script src="./categories.js"></script>
+  <script src="./categoriesCRUD.js"></script>
+</body>
+
+</html>

@@ -89,6 +89,7 @@ textarea {
     text-align: center;
     justify-content: center;
     align-items: center;
+    letter-spacing: 2px;
 }
 
 .categoryChange button {

@@ -13,17 +13,8 @@ const THEMES = [
         title: 'Light',
         color: '#E8E9EB'
     },
-    {
-        id: 3,
-        value: 'red',
-        title: 'Red',
-    },
-    {
-        id: 4,
-        value: 'blue',
-        title: 'Blue',
-        color: '#32CBFF'
-    }
+   
+   
 ]
 
 window.addEventListener('load', () => {

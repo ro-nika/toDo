@@ -10,16 +10,6 @@
     --font-color: rgb(0, 0, 0);
 }
 
-.red {
-    --main-color: rgb(255, 0, 0);
-    --font-color: rgb(255, 255, 255);
-}
-
-.blue {
-    --main-color: rgb(0, 208, 255);
-    --font-color: black;
-}
-
 
 
 body {
@@ -56,7 +46,7 @@ main .container .fieldsCard {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    background: #72727210;
+    background: #72727224;
 }
 
 .categoryContainer {
